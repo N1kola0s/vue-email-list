@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 4rem auto;
+    line-height: 1.5rem;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    padding-bottom: 2rem;
+}
