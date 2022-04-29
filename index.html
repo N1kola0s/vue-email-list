@@ -15,9 +15,9 @@
 <body>
     <div id="app">
         <ul>
-            <li>
+            <li v-show="listaEmail.length == 10" v-for="email in listaEmail">
 
-                {{listaEmail}}
+                {{email}}
 
             </li>
 
